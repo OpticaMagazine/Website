@@ -41,7 +41,7 @@ p {
 .logo {
   padding-top: 20px;
   width: 72px;
-
+  cursor: pointer;
 
 }
 
@@ -53,6 +53,7 @@ p {
   letter-spacing: -0.6px;
   padding-top: 8px;
   padding-right: 8px;
+  display: inline-block;
 }
 
 .websiteContainer {
