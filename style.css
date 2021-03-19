@@ -1,0 +1,154 @@
+@font-face {
+  src: url("fonts/Inter-Bold.otf");
+  font-family: Inter-Bold;
+}
+
+@font-face {
+  src: url("fonts/Inter-SemiBold.otf");
+  font-family: Inter-SemiBold;
+}
+
+@font-face {
+  src: url("fonts/Inter-Medium.otf");
+  font-family: Inter-Medium;
+}
+
+@font-face {
+  src: url("fonts/Inter-Regular.otf");
+  font-family: Inter-Regular;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.topNaviagationBarContainer {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  height: 72px;
+  background-color: white;
+
+}
+
+.logo {
+  padding-top: 20px;
+  width: 72px;
+
+
+}
+
+.headerTextButton {
+  cursor: pointer;
+  float: right;
+  font-family: Inter-Regular;
+  font-size: 16px;
+  letter-spacing: -0.6px;
+  padding-top: 8px;
+  padding-right: 8px;
+}
+
+.websiteContainer {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.websiteBodyContainer {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.contentPositioning {
+  padding-top: 24px;
+  padding-bottom: 64px;
+}
+
+.contentContainer {
+  height: auto;
+  display: block;
+}
+
+.contentCoverImage {
+  width: 100%;
+}
+
+.contentContainerTitle {
+  font-family: Inter-Medium;
+  font-size: 40px;
+  letter-spacing: -1px;
+  margin: 0;
+  padding-top: 8px;
+  line-height: 44px;
+}
+
+.contentContainerCreator {
+  font-family: Inter-Regular;
+
+}
+
+.contentContainerDescription {
+  font-family: Inter-Regular;
+  padding-bottom: 20px;
+
+}
+
+.buttonsContainer {
+  padding-bottom: 40px;
+}
+
+.buttonUnitContainer {
+  border: 1px solid black;
+  border-radius: 100px;
+  padding-left:16px;
+  padding-right:16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Inter-Semibold;
+  letter-spacing: -0.6px;
+  color: black;
+  text-align: left;
+}
+
+.buttonUnitContainer:hover {
+  color: white;
+  background-color: black;
+}
+
+.articlePageTitle {
+  margin: 0;
+  font-size: 56px;
+  font-family: Inter-Semibold;
+  letter-spacing: -3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 60px;
+}
+
+.articlePageAuthor {
+  font-family: Inter-Regular;
+  padding-bottom: 16px;
+}
+
+.articlePageBody {
+  font-family: Inter-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 64px;
+}
+
+@media screen and (max-width: 600px) {
+  .contentContainer {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+  }
+}
