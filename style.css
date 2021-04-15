@@ -1,31 +1,11 @@
 @font-face {
-  src: url("fonts/Inter-Bold.otf");
-  font-family: Inter-Bold;
-}
-
-@font-face {
-  src: url("fonts/Inter-SemiBold.otf");
-  font-family: Inter-SemiBold;
-}
-
-@font-face {
-  src: url("fonts/Inter-Medium.otf");
-  font-family: Inter-Medium;
-}
-
-@font-face {
-  src: url("fonts/Inter-Regular.otf");
-  font-family: Inter-Regular;
-}
-
-@font-face {
-  src: url("fonts/Inter-Light.otf");
-  font-family: Inter-Light;
+  src: url("fonts/terminal-grotesque.ttf");
+  font-family: Terminal-Grotesque;
 }
 
 @font-face {
   src: url("fonts/Mister Pixel Regular.otf");
-  font-family: MisterPixel
+  font-family: MisterPixel;
 }
 
 @font-face {
@@ -79,10 +59,10 @@ p {
 .logoLetterType {
   display: block;
   position: static;
-  font-family: MisterPixel;
-  font-size: 24px;
+  font-family: Terminal-Grotesque;
+  font-size: 30px;
   letter-spacing: -1px;
-  padding-top: 20px;
+  padding-top: 16px;
   width: auto;
   cursor: pointer;
   color: black;
@@ -142,7 +122,7 @@ p {
 .contentCoverImage {
   width: 100%;
   object-fit: cover;
-  height: 300px;
+  height: 364px;
   box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -183,7 +163,7 @@ p {
   padding-top: 8px;
   padding-bottom: 8px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   font-family: MisterPixel;
   letter-spacing: -0.6px;
   color: black;
@@ -197,12 +177,12 @@ p {
 
 .articlePageTitle {
   margin: 0;
-  font-size: 56px;
+  font-size: 48px;
   font-family: LiberationSerif-Regular;
   letter-spacing: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
-  line-height: 60px;
+  line-height: 52px;
 }
 
 .articlePageAuthor {
@@ -215,6 +195,32 @@ p {
   font-size: 16px;
   line-height: 24px;
   padding-bottom: 64px;
+}
+
+.articleImagePosition {
+  padding-top: 0px;
+}
+
+.articleImage {
+  width: 100%;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.articleImageAlt {
+  width: 100%;
+  object-fit: contain;
+  height: 400px;
+  background-color: black;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid black;
+
 }
 
 .informationHeader {
