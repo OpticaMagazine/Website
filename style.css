@@ -188,6 +188,7 @@ p {
 .articlePageAuthor {
   font-family: LiberationSerif-Regular;
   padding-bottom: 16px;
+  line-height: 24px;
 }
 
 .articlePageBody {
@@ -211,16 +212,8 @@ p {
 
 .articleImageAlt {
   width: 100%;
-  object-fit: contain;
   height: 400px;
-  background-color: black;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    border: 1px solid black;
-
+  object-fit: contain;
 }
 
 .informationHeader {
@@ -230,6 +223,71 @@ p {
 
 .informationBody {
   font-size: 18px;
+}
+
+.teamMember {
+  font-family: MisterPixel;
+  font-size: 24px;
+}
+
+.teamMemberInfo {
+  font-family: LiberationSerif;
+  font-size: 16px;
+}
+
+.collapsibleContainer {
+  border: 1px solid black;
+  margin-bottom: 4px;
+}
+
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  font-family: MisterPixel;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+.lastCollapsible {
+  border-bottom: 1px solid black;
+}
+
+.archiveLink {
+  display: block;
+  padding-top: 8px;
+  color: black;
+  font-family: LiberationSerif;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.archiveLink:hover {
+  color: blue;
 }
 
 
